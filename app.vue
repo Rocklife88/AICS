@@ -1,5 +1,5 @@
-<template>
-  <div class="container-fluid  mx-auto w-full h-screen">   
+<template>   
+    <NuxtLayout>
     <NuxtPage/>
-  </div>
+  </NuxtLayout>
 </template>

@@ -1,5 +1,4 @@
 <template>
-  <Header />
   <div class=" container mx-auto p-4">
     <div
       class="text-3xl text-primary font-medium border-b-2 border-primaryLighter w-9"

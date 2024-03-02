@@ -9,7 +9,7 @@
     <!-- Menu per dispositivi desktop -->
     <nav class="hidden lg:flex">
       <ul class="flex space-x-4">
-        <li><NuxtLink href="#" class="hover:border-b-2">Home</NuxtLink></li>
+        <li><NuxtLink href="/" class="hover:border-b-2">Home</NuxtLink></li>
         <li><NuxtLink to="/comitato" class="hover:border-b-2">Il Comitato</NuxtLink></li>
         <li><NuxtLink to="/contatti" class="hover:border-b-2">Contatti</NuxtLink></li>
       </ul>

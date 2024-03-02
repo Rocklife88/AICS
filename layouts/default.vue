@@ -1,12 +1,14 @@
 <template>
+  <div>
   <div ref="homeHeadingRef">
     <Header/>
   </div>
-  <div class="flex">
-    <div class="flex flex-column w-full overflow-auto" :style="{ height: contentHeight }">
+  <div class="flex ">
+    <div class=" w-full h-full flex overflow-auto px-4" :style="{ height: contentHeight }">
       <slot />
     </div>
   </div>
+</div>
 </template>
 
 <script setup lang="ts">

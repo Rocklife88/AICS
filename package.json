@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-styled-tailwind",
+  "name": "aicslucca-webpage",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "build": "nuxt build",

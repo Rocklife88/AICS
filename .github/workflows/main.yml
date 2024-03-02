@@ -1,0 +1,24 @@
+name: Build on Pull Request
+
+on:
+  pull_request:
+    types: [opened, synchronize, review_requested]
+
+jobs:
+  build:
+    runs-on: actions_runner_aicslucca-website
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 20.11.0 
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build
+      run: npm run build

@@ -1,24 +1,29 @@
-name: Build on Pull Request
+name: Build Check
 
 on:
-  pull_request:
-    types: [opened, synchronize, review_requested]
+  push:
+    branches:
+      - main # Cambia questo sezione in base al tuo branch principale
 
 jobs:
   build:
-    runs-on: actions_runner_aicslucca-website
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
+    - name: Set Up Node.js
+      uses: actions/setup-node@v3
       with:
-        node-version: 20.11.0 
+        node-version: 20.11.x
 
-    - name: Install dependencies
-      run: npm ci
+    - name: Install Dependencies
+      run: |
+        npm ci
 
-    - name: Build
-      run: npm run build
+    - name: Build Project
+      run: |
+        npm run build
+
+

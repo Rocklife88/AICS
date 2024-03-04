@@ -1,8 +1,8 @@
 <template>
-    <div class="flex-reverse items-center md:flex  justify-center h-full w-full mx-auto white pt-20 md:pt-2 md:mt-0 bg-white ">
+    <div class="flex-reverse items-center md:flex  justify-center md:min-h-screen  min-h-full mb-44 md:mb-0 px-6 w-full mx-auto white pt-20 md:pt-2 md:mt-0 bg-white ">
       
   <!-- Container flessibile per la hero section -->
-  <div class="container relative  gap-1 items-center mx-auto flex flex-col md:flex-row p-6 ">
+  <div class="container  relative  gap-1 items-center mx-auto flex flex-col md:flex-row  ">
     <!-- Blocco sinistro con testo e pulsante -->
     <div class=" w-full md:w-1/3">
       <div class="text-left ">

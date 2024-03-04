@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid flex flex-col items-center justify-center w-full mx-auto p-4 h-full relative overflow-hidden">
+  <div class="container-fluid flex flex-col items-center justify-center w-full mx-auto p-6 md:p-4 h-full relative overflow-hidden">
     <!-- Immagine di sfondo con opacità -->
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 opacity-40 z-10"></div>
-       <img src="https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Background Image" class="absolute inset-0 w-full h-full object-cover z-0" /> -->
+       <img src="https://images.unsplash.com/photo-1543326727-cf6c39e8f84c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Background Image" class="absolute inset-0 w-full h-full object-cover z-0" />
     </div>
 
     <!-- Container flessibile per gli elementi -->

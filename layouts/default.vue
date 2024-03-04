@@ -1,10 +1,10 @@
 <template>
   <div>
   <div ref="homeHeadingRef">
-    <Header/>
+    <HomeHeader/>
   </div>
   <div class="flex ">
-    <div class=" w-full h-full flex overflow-auto px-4" :style="{ height: contentHeight }">
+    <div class=" w-full h-full flex overflow-auto  " :style="{ height: contentHeight }">
       <slot />
     </div>
   </div>

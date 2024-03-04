@@ -1,6 +1,6 @@
 <template>
-<div class="container-fluid mx-auto">
-<HeroSection1/>
+<div class="w-screen">
+<HomeHero/>
 <HomeContent/>
 </div>
 </template>

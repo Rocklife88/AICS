@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid mx-auto  w-full px-4 ">
+  <div class=" ">
   <HomeAicsAppSection/>
   <HomeQrCodeSection/>
   <HomeSocialSection/>

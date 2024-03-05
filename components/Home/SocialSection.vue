@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-6 container-fluid col-reverse md:flex items-center mx-auto max-w-full h-full md:min-h-[650px] bg-primaryDarker mb-20 rounded-md"
+    class="p-6 container-fluid col-reverse md:flex items-center mx-auto max-w-full h-full md:min-h-[650px] bg-primaryDarker mb-20 "
   >
     <div
       class="block md:hidden text-center text-3xl md:text-4xl font-semibold text-white md:pl-0 md:pt-16 pb-16 md:text-left"

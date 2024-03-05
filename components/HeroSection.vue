@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid flex flex-col items-center justify-center w-full mx-auto p-6 md:p-4 h-full relative overflow-hidden ">
+  <div class="container-fluid flex flex-col items-center justify-center w-full mx-auto p-6 md:p-4 h-full relative overflow-hidden bg-primaryDarker ">
     <!-- Immagine di sfondo con opacità -->
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 opacity-40 z-10"></div>

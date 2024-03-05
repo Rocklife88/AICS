@@ -12,13 +12,15 @@ module.exports = {
     extend: {
       colors: {
         primary: '#0066b3',
-        primaryLighter: '#479bda',
-        primaryDarker: '#004a81',
+        primaryLighter: '#004a81',
+        primaryDarker: '#174d81',
         accent: '#d20222', 
         secondaryAccent: '#318343' 
       },
-      
+      linearGradientColors: {
+        'blue-gradient': ['#0066b3', '#174d81'],
+      },
     },
   },
-  plugins: [],
+  
 }

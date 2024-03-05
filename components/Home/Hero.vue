@@ -4,7 +4,7 @@
   >
     <!-- Container flessibile per la hero section -->
     <div
-      class="container relative gap-1 items-center mx-auto flex flex-col md:flex-row"
+      class="container relative gap-1 items-center mx-auto flex flex-col md:flex-row p-6"
     >
       <!-- Blocco sinistro con testo e pulsante -->
       <div class="w-full md:w-1/2">

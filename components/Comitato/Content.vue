@@ -1,7 +1,7 @@
 <template>
         <div class="pb-6 w-full">
       <div
-        class="text-center border-b-2 border-primaryLighter text-3xl text-primaryDarker font-medium w-1/6 mx-auto"
+        class="text-center border-b-2 border-primaryLighter text-3xl text-primaryDarker font-medium  w- full md:w-1/6 mx-auto"
       >
         Il Comitato
       </div>

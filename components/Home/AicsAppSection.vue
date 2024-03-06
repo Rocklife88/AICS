@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid w-full">
+  <div class=" w-screen">
     <!-- Prima sezione -->
-    <div class="flex flex-col-reverse md:flex-row items-center md:min-h-[650px] h-full mt-4 p-6 bg-primaryDarker rounded-md w-full ">
+    <div class="flex flex-col-reverse md:flex-row items-center md:min-h-[650px] h-full mt-4 p-6 bg-primaryDarker w-full ">
       <div class="md:w-1/2">
         <img class="w-full h-full md:w-1/2 pt-6" src="/assets/images/mockup.png" alt="" />
       </div>

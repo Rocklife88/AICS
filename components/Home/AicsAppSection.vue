@@ -1,22 +1,25 @@
 <template>
-  <div class=" w-screen">
-    <!-- Prima sezione -->
-    <div class="flex flex-col-reverse md:flex-row items-center md:min-h-[650px] h-full mt-4 p-6 bg-primaryDarker w-full ">
-      <div class="md:w-1/2">
-        <img class="w-full h-full md:w-1/2 pt-6" src="/assets/images/mockup.png" alt="" />
+  <div class="bg-primaryDarker py-10 h-full md:max-h-[550px]">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:py-16 ">
+      <div class="md:w-1/2 mx-auto md:mx-0 md:flex items-center justify-start pb-6">
+        <!-- Immagine significativa che rimanda alla call to action per scaricare l'app -->
+          <img src="/assets/images/mockup.png" alt="App Download QR Code" class=" hidden md:block rounded-lg hover:opacity-80 transition duration-300 pb-6">
+        <img src="/assets//images/QrCode.png" alt="App Download QR Code" class=" w-24 h-24      rounded-lg ">
       </div>
-      <div class="md:w-1/2">
-        <div class="text-3xl font-semibold pb-6 text-white">
-          AICS Lucca App!
-          <div class="border-2 border-primaryLighter w-14"></div>
-        </div>
-        <div class="text-pretty text-white text-lg leading-8">
-          Scopri la nuova App di AICS Lucca e rimani aggiornato in tempo reale su
-          campionati, goal, classifiche e prossime partite. Utilizza il QR Code e
-          scarica Gratuitamente la nostra nuova App per avere Sempre in tasca le
-          ultime novità sul tuo universo sportivo!
-        </div>
+      <div class="text-white text-center md:text-left md:w-1/2 px-6">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-4">Scarica la nostra App!</h2>
+        <p class="text-lg md:text-xl mb-6">Scansiona il QR code e ottieni l'accesso istantaneo.</p>
+        <!-- Aggiungi qui un testo o un pulsante per invitare all'azione -->
+       
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+</script>
+
+<style scoped>
+  /* Stile per l'immagine */
+
+</style>

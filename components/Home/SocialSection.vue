@@ -1,35 +1,30 @@
 <template>
-  <div
-    class="p-6 container-fluid col-reverse md:flex items-center mx-auto max-w-full h-full md:min-h-[650px] bg-primaryDarker mb-20 "
-  >
-    <div
-      class="block md:hidden text-center text-3xl md:text-4xl font-semibold text-white md:pl-0 md:pt-16 pb-16 md:text-left"
-    >
-      Seguici sul nostro canale Telegram per rimanere aggiornato su tutte le news!
-    </div>
-
-    <div
-      class="flex-col items-center justify-center  w-full md:w-1/2 mx-auto md:mx-auto text-center overflow-hidden">
-
-      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faicscomitatoprovinciale.lucca%2F%3Flocale%3Dit_IT&tabs=timeline&width=400px&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="600px" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-      <!-- qui inserire feed social telegram -->
-   
-    </div>
-
-    <div
-      class="hidden md:block md:w-1/2 text-3xl  font-semibold text-white pl-10 md:pl-0 md:pt-16 pt-2 text-left"
-    >
-    Seguici sul nostro Canale Facebook e rimani sempre aggiornato su news e eventi!
+  <div class="bg-white py-10 h-full md:max-h-[550px]">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:py-16">
+      <div class="text-primaryDarker text-center md:text-left md:w-1/2 px-6">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-4">Seguici sul nostro Canale Facebook</h2>
+        <p class="text-lg md:text-xl mb-6">Rimani sempre aggiornato su news e eventi!</p>
+        <!-- Aggiungi qui un testo o un pulsante per invitare all'azione -->
+        <a href="https://www.facebook.com/aicscomitatoprovinciale.lucca/" target="_blank" rel="noopener noreferrer" class="bg-primary text-white rounded-full py-2 px-6 text-lg font-semibold shadow-lg hover:bg-primaryLighter hover:text-white transition duration-300">Segui</a>
+      </div>
+      <div class="md:w-1/2 mx-auto md:mx-0">
+        <!-- Immagine significativa che rimanda ai social -->
+        <a href="https://www.facebook.com/aicscomitatoprovinciale.lucca/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/images/team.png" alt="Facebook Cover Image" class="rounded-lg  hover:opacity-80 transition duration-300">
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-
 </script>
 
-<style>
-  .aspect-w-16 {
+<style scoped>
+  /* Stile per l'immagine */
+  img {
     width: 100%;
+    max-width: 400px; /* Limita la larghezza per adattarsi meglio allo schermo */
+    height: auto;
   }
 </style>

@@ -4,7 +4,7 @@
       <HomeHeader />
     </div>
     <div class="flex flex-col min-h-screen">
-      <div class="flex-1 overflow-auto overflow-x-hidden mb-10">
+      <div class="flex-1 overflow-auto overflow-x-hidden ">
         <slot />
       </div>
       <div>

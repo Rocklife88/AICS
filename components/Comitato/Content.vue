@@ -10,7 +10,7 @@
       <div class="pb-2">
         <div class="text-2xl text-primaryDarker font-medium">Chi Siamo</div>
       </div>
-      <div class="leading-relaxed text-md">
+      <div class="leading-loose md:leading-relaxed  text-md">
         Il Comitato Provinciale A.I.C.S. di Lucca è l’articolazione territoriale
         dell’Associazione Italiana Cultura e Sport, Ente di Promozione Sportiva
         riconosciuto dal CONI, Ente con carattere assistenziale riconosciuto dal
@@ -24,7 +24,7 @@
 
         <div class="text-2xl text-primaryDarker font-medium pt-6 pb-2">Un po'di storia</div>
 
-        <div class="pt-2 leading-relaxed text-md">
+        <div class="pt-2 leading-loose md:leading-relaxed text-md">
           Dal 2003 è stata aperta anche la delegazione Viareggio-Versilia, che
           ha sede presso il CTL di Lido di Camaiore. L’Associazione nazionale è
           stata fondata nel 1962, mentre il nostro Comitato è stato costituito

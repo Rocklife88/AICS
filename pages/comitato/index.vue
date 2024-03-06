@@ -5,3 +5,12 @@
     <ComitatoContent />
   </div>
 </template>
+
+
+<script setup>
+useHead({
+  title:'Il Comitato',
+})
+
+
+</script>

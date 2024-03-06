@@ -47,7 +47,7 @@
           </h3>
           <ul class="space-y-1">
             <li>
-              <a rel="noopener noreferrer" href="#">Privacy</a>
+              <NuxtLink to="/privacy" rel="noopener noreferrer" >Privacy</NuxtLink>
             </li>
             <li>
               <a rel="noopener noreferrer" href="#">Terms of Service</a>

@@ -7,3 +7,11 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title:'Contatti',
+})
+
+
+</script>

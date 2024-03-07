@@ -1,6 +1,6 @@
 <template>
 <div>
-<HomeHero/>
+<HomeHeroVideo/>
 <HomeContent/>
 </div>
 </template>

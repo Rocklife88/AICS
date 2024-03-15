@@ -18,6 +18,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@vueuse/nuxt": "^10.9.0",
     "iframely": "^2.3.0"
   }
 }

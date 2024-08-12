@@ -1,10 +1,10 @@
 <template>
     <div class="bg-white  h-full md:max-h-[550px]">
       <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:py-16">
-        <div class="text-primaryDarker text-center md:text-left md:w-1/2 px-6 pt-6">
+        <div class="text-primaryDark text-center md:text-left md:w-1/2 px-6 pt-6">
             <img class="w-24 md:w-30 mx-auto md:mx-0" src="/assets/images/logo_aicslucca.png" alt="">
           <h2 class="text-3xl md:text-4xl font-semibold mb-4">Chi siamo</h2>
-          <p class=" md:text-xl mb-6 text-left">   Il Comitato Provinciale A.I.C.S. di Lucca è l’articolazione territoriale
+          <p class=" md:text-xl mb-6 text-left text-primaryLighter">   Il Comitato Provinciale A.I.C.S. di Lucca è l’articolazione territoriale
         dell’Associazione Italiana Cultura e Sport, Ente di Promozione Sportiva
         riconosciuto dal CONI, Ente con carattere assistenziale riconosciuto dal
         Ministero degli Interni e Associazione di Promozione Sociale iscritta

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white h-fullh-full md:min-h-[550px] py-12">
+  <div class="bg-white h-fullh-full md:min-h-[600px] py-12">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-center ">
       <!-- Sezione di testo -->
       <div class="text-center md:text-left md:w-1/2 px-6 pt-6">

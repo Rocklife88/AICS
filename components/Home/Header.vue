@@ -10,10 +10,10 @@
     <!-- Menu per dispositivi desktop -->
     <nav class="hidden lg:flex">
       <ul class="flex space-x-4">
-        <li><NuxtLink to="/" class="hover:border-b-2">Home</NuxtLink></li>
-        <li><NuxtLink to="/comitato" class="hover:border-b-2">Il Comitato</NuxtLink></li>
-        <li><NuxtLink to="/contatti" class="hover:border-b-2">Contatti</NuxtLink></li>
-        <li><a href="https://www.aicsnetwork.net/" class="hover:border-b-2">Tesseramento AICS</a></li>
+        <li><NuxtLink to="/" class="hover:border-b-2 text text-lg">Home</NuxtLink></li>
+        <li><NuxtLink to="/comitato" class="hover:border-b-2 text-lg">Il Comitato</NuxtLink></li>
+        <li><NuxtLink to="/contatti" class="hover:border-b-2 text-lg">Contatti</NuxtLink></li>
+        <li><a href="https://www.aicsnetwork.net/" class="hover:border-b-2 text-lg">Tesseramento AICS</a></li>
 
       </ul>
     </nav>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primaryDarker py-12 min-h-full md:min-h-[550px]">
+  <div class="bg-primaryDarker py-12 min-h-full md:min-h-[600px]">
     <div class="container mx-auto flex flex-col md:flex-row gap-8 items-center justify-center md:py-20">
       <!-- Sezione immagine -->
       <div class="md:w-1/2 mx-auto md:mx-0 md:flex items-center gap-8 justify-center pb-6">
@@ -7,7 +7,7 @@
         <img 
           src="@/assets/images/aicsApp.png" 
           alt="App Mockup Sportiva" 
-          class="rounded-lg hover:opacity-80 transition duration-300"
+          class=" w-80 rounded-lg hover:opacity-80 transition duration-300"
         />
       </div>
       <!-- Sezione testo e call-to-action -->
@@ -20,8 +20,8 @@
          clicca sul link qui sotto per accedere gratuitamente all'app.
         </p>
         <!-- Pulsante di call-to-action -->
-        <a 
-          href="#"
+        <a target="blank"
+          href="https://aicslucca-campionati.onrender.com/#/tournaments"
           class="bg-white translate-y-1 shadow-md rounded-2xl text-primaryDarker font-semibold px-6 py-3  hover:text-primaryDark transition duration-300"
         >
           Clicca qui per accedere all'App

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-primaryDarker py-12 h-full md:min-h-[550px]">
+    <div class="bg-primaryDarker py-12 h-full md:min-h-[600px]">
       <div class="container mx-auto px-6">
         <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-center text-white">AICS: un mondo di sport</h2>
         

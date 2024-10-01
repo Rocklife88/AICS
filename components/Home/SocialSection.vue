@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white py-10 h-full md:max-h-[550px]">
+  <div class="bg-white py-10 h-full md:max-h-[600px]">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:py-16">
       <div class="text-center md:text-left md:w-1/2 px-6">
         <h2 class="text-3xl text-primaryDarker   md:text-4xl font-semibold mb-4">Seguici su Facebook</h2>

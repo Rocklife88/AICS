@@ -13,7 +13,7 @@
       <div class="hidden md:flex flex-wrap justify-center md:justify-start gap-4 text-white text-sm">
         <!-- Sezione AICS Lucca -->
         <div class="flex flex-row space-x-4">
-          <h3 class="font-medium uppercase">AICS Lucca:</h3>
+          <a href="https://www.aics.it/la-nostra-storia/" class="font-medium uppercase">AICS Italia</a>
           <ul class="flex space-x-4">
             <li><NuxtLink to="/" rel="noopener noreferrer" class="hover:underline">Home</NuxtLink></li>
             <li><NuxtLink to="/comitato" rel="noopener noreferrer" class="hover:underline">Il Comitato</NuxtLink></li>
@@ -23,7 +23,6 @@
 
         <!-- Sezione AICS Italia -->
         <div class="flex flex-row space-x-4">
-          <h3 class="font-medium uppercase">AICS Italia:</h3>
           <ul class="flex space-x-4">
             <li><NuxtLink to="/privacy" rel="noopener noreferrer" class="hover:underline">Privacy</NuxtLink></li>
             <li><a rel="noopener noreferrer" href="#" class="hover:underline">Terms of Service</a></li>

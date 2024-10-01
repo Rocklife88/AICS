@@ -1,41 +1,39 @@
 <template>
-    <div class="bg-white py-10 h-full md:max-h-[550px]">
-        <div class=" text-primaryDark text-3xl md_text-3xl font-semibold text-center pb-6">Un' App semplice per seguire la tua squadra</div>
-      <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:py-16">
-        <!-- Prima feature -->
-        <div class="md:w-1/3 mx-auto md:mx-0 md:flex items-center justify-start pb-6">
-            <img src="/assets/images/mockup.png" alt="Feature 3" class="w-24 h-24 rounded-lg">
-        </div>
-        <div class="text-primaryDark text-center md:text-left md:w-2/3 px-6">
-          <h3 class="text-xl md:text-2xl font-semibold pb-2">Risultati e classifiche aggiornati</h3>
-          <p class="  text-primaryLighter text-base md:text-lg mb-6 text-left px-10 leading-relaxed">Troverai risultati e statistiche aggiornate settimanalmente e sempre disponibili per te</p>
-        </div>
-        
-        <!-- Seconda feature -->
-        <div class="md:w-1/3 mx-auto md:mx-0 md:flex items-center justify-start pb-6">
-            <img src="/assets/images/mockup.png" alt="Feature 3" class="w-24 h-24 rounded-lg">
-        </div>
-        <div class="text-primaryDark text-center md:text-left md:w-2/3 px-6">
-          <h3 class="text-xl md:text-2xl font-semibold pb-2">Il tuo sport nella tua tasca</h3>
-          <p class="text-base text-primaryLighter md:text-lg mb-6 text-left px-10 leading-relaxed"> Consulta le prossime partite e seleziona una squadra per rimanere aggiornato sulle statistiche in tempo reale </p>
-        </div>
-  
-        <!-- Terza feature -->
-        <div class="md:w-1/3 mx-auto md:mx-0 md:flex items-center justify-start pb-6">
-          <img src="/assets/images/mockup.png" alt="Feature 3" class="w-24 h-24 rounded-lg">
-        </div>
-        <div class="text-primaryDark text-center md:text-left md:w-2/3 px-6 ">
-          <h3 class="text-xl md:text-2xl font-semibold pb-2">Gratuita per te, per sempre!</h3>
-          <p class="  text-primaryLighter text-base md:text-lg mb-6 text-left px-10 leading-relaxed ">Aics Lucca ha pensato di metterti a disposizione un ingresso semplice e intuitivo allo sport della tua vita</p>
-        </div>
+  <div class="bg-white py-12 h-full md:min-h-[600px] flex-col items-center justify-center">
+   
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 px-6 md:py-16">
+      <!-- Prima feature -->
+      <div class="flex flex-col items-center text-center">
+        <img src="/assets/images/aicsApp.png" alt="Feature 1" class="w-32 h-32 rounded-lg mb-4 mx-auto">
+        <h3 class="text-xl md:text-2xl font-semibold text-primaryDark">Risultati e classifiche aggiornati</h3>
+        <p class="text-paragraphText text-base md:text-lg leading-4 px-3 pt-2">
+          Troverai risultati e statistiche aggiornate settimanalmente e sempre disponibili per te.
+        </p>
+      </div>
+      
+      <!-- Seconda feature -->
+      <div class="flex flex-col items-center text-center">
+        <img src="/assets/images/aicsApp.png" alt="Feature 2" class="w-32 h-32 rounded-lg mb-4 mx-auto">
+        <h3 class="text-xl md:text-2xl font-semibold text-primaryDark">Il tuo sport nella tua tasca</h3>
+        <p class="text-paragraphText text-base md:text-lg leading-4 px-3 pt-2">
+          Consulta le prossime partite e seleziona una squadra per rimanere aggiornato sulle statistiche in tempo reale.
+        </p>
+      </div>
+      
+      <!-- Terza feature -->
+      <div class="flex flex-col items-center text-center">
+        <img src="/assets/images/aicsApp.png" alt="Feature 3" class="w-32 h-32 rounded-lg mb-4 mx-auto">
+        <h3 class="text-xl md:text-2xl font-semibold text-primaryDark">Gratuita per te, per sempre!</h3>
+        <p class="text-paragraphText text-base md:text-lg leading-4 px- pt-2">
+          Aics Lucca ha pensato di metterti a disposizione un ingresso semplice e intuitivo allo sport della tua vita.
+        </p>
       </div>
     </div>
-  </template>
-  
-  <script setup>
-  </script>
-  
-  <style scoped>
- 
-  </style>
-  
+  </div>
+</template>
+
+<script setup>
+</script>
+
+<style scoped>
+</style>

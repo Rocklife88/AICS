@@ -10,7 +10,7 @@
       <div class="w-full md:w-1/2">
         <div class="text-left">
           <img class="w-1/3" src="/assets/images/logo_aicslucca.png" alt="" />
-          <h1 class="text-3xl md:text-4xl font-bold text-primaryDarker">
+          <h1 class="text-4xl md:text-8xl font-bold text-primaryDarker">
             IL TUO SPORT<br />
             SEMPRE CON TE
           </h1>

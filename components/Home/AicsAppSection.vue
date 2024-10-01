@@ -1,19 +1,31 @@
 <template>
-  <div class="bg-primaryDarker py-10 h-full md:max-h-[550px]">
-    <div class="container mx-auto flex flex-col md:flex-row items-center justify-center md:py-16 ">
-      <div class="md:w-1/2 mx-auto md:mx-0 md:flex items-center justify-start pb-6">
-        <!-- Immagine significativa che rimanda alla call to action per scaricare l'app -->
-        <img src="/assets//images/QrCode.png" alt="App Download QR Code" class=" w-24 h-24      rounded-lg ">
-          <img src="/assets/images/mockup.png" alt="App Download QR Code" class=" hidden md:block rounded-lg hover:opacity-80 transition duration-300 pb-6">
-     
+  <div class="bg-primaryDarker py-12 min-h-full md:min-h-[550px]">
+    <div class="container mx-auto flex flex-col md:flex-row gap-8 items-center justify-center md:py-20">
+      <!-- Sezione immagine -->
+      <div class="md:w-1/2 mx-auto md:mx-0 md:flex items-center gap-8 justify-center pb-6">
+        <!-- Immagine mockup dell'app sportiva -->
+        <img 
+          src="@/assets/images/aicsApp.png" 
+          alt="App Mockup Sportiva" 
+          class="rounded-lg hover:opacity-80 transition duration-300"
+        />
       </div>
-      <div class="text-white text-center md:text-left md:w-1/2 px-6">
-        <h2 class="text-3xl md:text-4xl font-semibold mb-4">Una nuova App gratuita per seguire i campionati di Calcio AICS!</h2>
-        <p class="text-lg md:text-xl mb-6">Scansiona il QR code e ottieni l'accesso istantaneo.
-          O clicca sul bottone qui sotto per accedere all'app
+      <!-- Sezione testo e call-to-action -->
+      <div class="text-white text-center md:text-left md:w-1/2 px-8">
+        <h2 class=" text-3xl md:text-4xl font-semibold mb-6">
+          Una nuova App gratuita per seguire i campionati di Calcio AICS!
+        </h2>
+        <p class="text-lg md:text-xl mb-8 hidden md:block ">
+ 
+         clicca sul link qui sotto per accedere gratuitamente all'app.
         </p>
-        <!-- Aggiungi qui un testo o un pulsante per invitare all'azione -->
-       
+        <!-- Pulsante di call-to-action -->
+        <a 
+          href="#"
+          class="bg-white translate-y-1 shadow-md rounded-2xl text-primaryDarker font-semibold px-6 py-3  hover:text-primaryDark transition duration-300"
+        >
+          Clicca qui per accedere all'App
+        </a>
       </div>
     </div>
   </div>
@@ -23,6 +35,9 @@
 </script>
 
 <style scoped>
-  /* Stile per l'immagine */
-
+/* Stile per migliorare la visualizzazione dell'immagine su schermi più piccoli */
+img {
+  max-width: 100%;
+  height: auto;
+}
 </style>

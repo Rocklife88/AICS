@@ -6,7 +6,7 @@
       Privacy Policy
     </div>
   </div>
-  <div class="text-primaryLighter leading-normal container mx-auto">
+  <div class="text-paragraphText leading-normal container mx-auto">
     <div class="pb-2"></div>
     <div class="leading-loose text-md">
       Informativa ai sensi dell'art. 14 del GDPR 2016/679 Regolamento europeo in
@@ -23,7 +23,7 @@
       su modulo cartaceo. Ti informiamo pertanto che tratteremo i dati che
       abbiamo ricevuto, per le finalità e con le modalità di seguito indicate, e
       allo scopo ti rilasciamo la seguente informativa :<br />
-      <div class="pt-6">
+      <div class="pt-6 text-paragraphText">
         <span class="text-lg text-primaryDarker font-medium"
           >1) FINALITA' DEL TRATTAMENTO</span
         >
@@ -47,7 +47,7 @@
         trattamento ti saranno fornite informazioni in merito a tali finalità e
         ogni ulteriore informazione pertinente.
       </div>
-      <div class="pt-6">
+      <div class="pt-6 text-paragraphText">
         <span class="text-lg text-primaryDarker font-medium"
           >2) MODALITA' DEL TRATTAMENTO</span
         >
@@ -63,7 +63,7 @@
         aspetto concernente il rapporto associativo.
       </div>
 
-      <div class="pt-6">
+      <div class="pt-6 text-paragraphText">
         <span class="text-lg text-primaryDarker font-medium"
           >3) CONFERIMENTO E CONSERVAZIONE DEI DATI</span
         >
@@ -76,7 +76,7 @@
       richieste. I tuoi dati saranno conservati sino a che rimarrai socio di
       un'associazione a noi affiliata, o ne richiederai la cancellazione.
 
-      <div class="pt-6">
+      <div class="pt-6 text-paragraphText">
         <span class="text-lg text-primaryDarker font-medium"
           >4) COMUNICAZIONE E DIFFUSIONE DEI DATI</span
         >
@@ -92,7 +92,7 @@
       associativa cui hai partecipato, forniremo i tuoi dati personali alla
       compagnia assicuratrice Allianz; Senza il tuo consenso esplicito, non
       forniremo i tuoi dati ad altri soggetti.
-      <div class="pt-6">
+      <div class="pt-6 text-paragraphText">
         <span class="text-lg text-primaryDarker font-medium"
           >5) TITOLARE DEL TRATTAMENTO</span
         >
@@ -102,7 +102,7 @@
       info@aicslucca.it telefono 0583 953794, fax 0583 955600, pec
       aicslucca@pec.it
 
-      <div class="pt-6">
+      <div class="pt-6 text-paragraphText">
         <span class="text-lg text-primaryDarker font-medium"
           >6) I TUOI DIRITTI</span
         >

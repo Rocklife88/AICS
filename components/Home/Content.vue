@@ -3,6 +3,7 @@
     <HomeChiSiamo/>
   <HomeAicsAppSection/>
   <HomeAppFeature/>
+  <HomeAicsPhotoGallery/>
   <HomeSocialSection/>
   </div>
 </template>

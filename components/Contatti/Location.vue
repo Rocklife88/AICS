@@ -5,7 +5,7 @@
         Dove siamo
       </div>
       <div class="flex flex-col text-left pb-2">
-        <div class="w-full text-primaryLighter pb-6">
+        <div class="w-full text-paragraphText pb-6">
           <span class="text-md">Lucca, <br> Via S.Nicolao 65, Piazzetta dell’Alba <br> Telefono: 0583 953794<br> Fax: 0583 955600</span>
         </div>
       </div>
@@ -15,13 +15,13 @@
       <div class="text-2xl text-primaryDarker pt-12 pb-2 font-medium text-cleft">
         I nostri orari
       </div>
-      <div class="text-lg text-primaryDarker font-medium text-left">
-        <span>dal 1°settembre al 30 giugno:</span><br />
-        <span class="text-primaryLighter font-normal">lunedì-venerdì: 9:00-11.00/15:00-20:00</span>
+      <div class="text-lg text-paragraphText font-medium text-left">
+        <span class="font-bold">dal 1°settembre al 30 giugno:</span><br />
+        <span class="text-paragraphText font-normal">lunedì-venerdì: 9:00-11.00/15:00-20:00</span>
       </div>
-      <div class="pt-2 pb-6 text-lg text-primaryDarker font-medium text-left">
-        <span>Luglio e Agosto:</span><br />
-        <span class="text-primaryLighter font-normal">lunedì al venerdì: 15.00- 20.00.</span>
+      <div class="pt-2 pb-6 text-lg text-paragraphText font-medium text-left">
+        <span class="font-bold">Luglio e Agosto:</span><br />
+        <span class="text-paragraphText font-normal">lunedì al venerdì: 15.00- 20.00.</span>
       </div>
     </div>
   </div>

@@ -18,6 +18,7 @@ module.exports = {
         primaryDarker: '#7f0000',   
         primaryAccent: '#d20222',  
         secondaryAccent: '#318343',
+        paragraphText:'#6b7280',
       },
       linearGradientColors: {
         'blue-gradient':['#d20000', '#900001', '#540000'],  

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative" style="height: calc(100vh - 70px - 116.42px);">
+  <div class="relative w-full " style="height: calc(100vh - 30px - 116.42px);">
     <!-- Video Hero -->
     <video class="w-full h-full object-cover" autoplay muted loop>
       <source src="/assets/video/calcioHero.mp4" type="video/mp4" />

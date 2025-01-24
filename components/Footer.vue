@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-primaryDarker py-6">
+  <footer class="bg-primaryDarker py-2">
     <!-- Contenitore principale del footer -->
     <div class="container mx-auto flex flex-col md:flex-row justify-between items-center md:space-x-8 px-4">
       <!-- Logo del footer, visibile sempre -->
